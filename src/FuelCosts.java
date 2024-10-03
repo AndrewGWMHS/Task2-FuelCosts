@@ -18,6 +18,7 @@ public class FuelCosts {
                 gallons = scan.nextDouble();
                 if (gallons >= 0) {
                     validGallons = true;
+                    scan.nextLine();
                 }
                 else {
                     scan.nextLine();
@@ -38,6 +39,7 @@ public class FuelCosts {
                 efficiency = scan.nextDouble();
                 if (efficiency >= 0) {
                     validEfficiency = true;
+                    scan.nextLine();
                 }
                 else {
                     scan.nextLine();
